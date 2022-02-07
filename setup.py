@@ -20,7 +20,7 @@ setup(
     packages=find_namespace_packages(include=['osvimdriver*']),
     include_package_data=True,
     install_requires=[
-        f'ignition-framework{ignition_version}',
+        f'ignition-framework=={ignition_version}',
         'python-heatclient>=1.17.0,<2.0',
         'python-keystoneclient>=3.19.0,<4.0',
         'python-neutronclient>=6.5.1,<7.0',
