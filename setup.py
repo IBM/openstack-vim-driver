@@ -22,12 +22,12 @@ setup(
     install_requires=[
         f'ignition-framework=={ignition_version}',
         'python-heatclient>=1.17.0,<2.0',
-        'python-keystoneclient>=3.19.0,<4.0',
         'python-neutronclient>=6.5.1,<7.0',
         'python-novaclient>=13.0.0,<14.0.0',
-        'tosca-parser @ git+https://github.com/IBM/tosca-parser.git@accanto',
+        'tosca-parser @ git+https://github.com/IBM/tosca-parser.git@cp4na',
         'heat-translator @ git+https://github.com/IBM/heat-translator.git@accanto-nfv',
-        'gunicorn==20.1.0'
+        'gunicorn==22.0.0',
+        'uvicorn==0.29.0'
     ],
     entry_points='''
         [console_scripts]
