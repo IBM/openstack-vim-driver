@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.10-alpine
 
 ARG DRIVER_PORT
 ENV DRIVER_PORT ${DRIVER_PORT:-8292}
@@ -30,4 +30,4 @@ WORKDIR /home/ovd
 EXPOSE 8292
 
 CMD if [ $SSL_ENABLED | tr [:upper:] [:lower:] == "true" ]; then SSL="--certfile /var/ovd/certs/tls.crt --keyfile /var/ovd/certs/tls.key" ; fi \
-&& gunicorn --workers $NUM_PROCESSES --bind :$DRIVER_PORT $SSL "osvimdriver:create_wsgi_app()"
+&& gunicorn -k uvicorn.workers.UvicornWorker --workers $NUM_PROCESSES --bind :$DRIVER_PORT $SSL "osvimdriver:create_wsgi_app()"
