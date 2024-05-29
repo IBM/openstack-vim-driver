@@ -1,5 +1,12 @@
 # Change Log
 
+## [3.5.0](https://github.com/IBM/openstack-vim-driver/tree/3.5.0) (2024-05-29)
+[Full Changelog](https://github.com/IBM/openstack-vim-driver/compare/3.4.0...3.5.0)
+
+**Implemented enhancements:**
+- Update ignition version to 3.6.1 [\#156](https://github.com/IBM/openstack-vim-driver/issues/156)
+- Fix Security Vulnerabilites  [\#154](https://github.com/IBM/openstack-vim-driver/issues/154)
+
 ## [3.4.0](https://github.com/IBM/openstack-vim-driver/tree/3.4.0) (2023-09-20)
 [Full Changelog](https://github.com/IBM/openstack-vim-driver/compare/3.3.0...3.4.0)
 
