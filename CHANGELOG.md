@@ -1,5 +1,11 @@
 # Change Log
 
+## [3.5.1](https://github.com/IBM/openstack-vim-driver/tree/3.5.0) (2024-06-18)
+[Full Changelog](https://github.com/IBM/openstack-vim-driver/compare/3.5.0...3.5.1)
+
+**Implemented enhancements:**
+- Update ignition version to 3.6.2 to fix for CP4NA UI driver log messages issue with ansible-lifecycle-driver
+
 ## [3.5.0](https://github.com/IBM/openstack-vim-driver/tree/3.5.0) (2024-05-29)
 [Full Changelog](https://github.com/IBM/openstack-vim-driver/compare/3.4.0...3.5.0)
 
