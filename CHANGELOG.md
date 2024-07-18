@@ -1,6 +1,12 @@
 # Change Log
 
-## [3.5.1](https://github.com/IBM/openstack-vim-driver/tree/3.5.0) (2024-06-18)
+## [3.5.2](https://github.com/IBM/openstack-vim-driver/tree/3.5.2) (2024-07-18)
+[Full Changelog](https://github.com/IBM/openstack-vim-driver/compare/3.5.1...3.5.2)
+
+**Implemented enhancements:**
+- Update Ignition to 3.6.3 to fix the issue of request transfer-encoding with chunked format
+
+## [3.5.1](https://github.com/IBM/openstack-vim-driver/tree/3.5.1) (2024-06-18)
 [Full Changelog](https://github.com/IBM/openstack-vim-driver/compare/3.5.0...3.5.1)
 
 **Implemented enhancements:**
