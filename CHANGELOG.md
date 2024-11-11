@@ -1,5 +1,11 @@
 # Change Log
 
+## [3.5.3](https://github.com/IBM/openstack-vim-driver/tree/3.5.3) (2024-11-11)
+[Full Changelog](https://github.com/IBM/openstack-vim-driver/compare/3.5.2...3.5.3)
+
+**Implemented enhancements:**
+- Rebuild to pick up security patches for CVE-2024-45490, CVE-2024-45491 and CVE-2024-45492
+
 ## [3.5.2](https://github.com/IBM/openstack-vim-driver/tree/3.5.2) (2024-07-18)
 [Full Changelog](https://github.com/IBM/openstack-vim-driver/compare/3.5.1...3.5.2)
 
